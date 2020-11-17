@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDoList</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="title">
+           <span> СПИСОК ЗАДАНИЙ</span>
+        <div class="userName">
+
+        </div>
+    </div>
+        <div class="content">
+        <div class="create">
+            <div><input type="text" class="input" placeholder="Введите задание" ></div>
+             <div><button type="submit" class="createTask" onclick="createTask()">+</button></div>
+        </div>
+        <div class="todo"></div>
+        <ul class="pagination"></ul>
+    </div>
+        <div class="auth">
+            Вход
+            <input type="text" class="auth_inp_email" placeholder="Логин">
+            <input type="password" class="auth_inp_pass" placeholder="Пароль">
+            <button class="auth_btn" onclick="auth()">Войти</button>
+            <button class="auth_reg_btn" onclick="register()">Регистрация</button>
+            
+            <div class="info_auth"></div>
+
+        </div>
+    </div>
+    
+
+    <script src = "script.js"></script>
+</body>
+</html>
